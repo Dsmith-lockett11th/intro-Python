@@ -1,0 +1,2 @@
+# i think a computer proagam run in the background of you computer and i i think it do is help apps run.
+# my favorite food is cereal the steps of making it is you need the cereal you want to eat and the milk then you want to get the bowl and put the cereal in the bowl then pour the milk in the bowl after the creal then you get your spoon.
