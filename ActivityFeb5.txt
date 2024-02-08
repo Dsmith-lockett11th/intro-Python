@@ -1,0 +1,7 @@
+1. an exmple of abstraction a computer 
+
+2. an integer is a whole number and a float have deciamals 
+
+3. variables are placeholders/ containers for data datatypes
+
+a time were you would have use a boolean is on your progarm when you have someone pick something.
