@@ -18,3 +18,8 @@ washighscorereached()
    # else:
   #      print()
 
+'eveluate specific conditons'
+'ans wil output specific outcomes'
+
+# if/ else are functions that have been abstracted
+# to make it easier for engineers to use logic
