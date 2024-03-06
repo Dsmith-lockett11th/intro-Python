@@ -25,41 +25,30 @@
 # B = 'basement'
 # R = 'rooftop'
 # 1 = 'gym'
-# 2 = 'restuarant'
+# 2 = 'resturant'
 # 3 = 'workspace'
 # 4 = 'living quarters'
 
 def ElevatorSystem():
     floornumber = input('enter a floor number?')
-    if floornumber:
-        print("lobby")
-    if floornumber:
-        print("basement")
-    if floornumber:
-        print("rooftop")
-    if floornumber:
-        print('gym')
+    if floornumber == 'm':
+        print("you are going to the lobby")
+    elif floornumber == 'b':
+        print("you are going to the basement")
+    elif floornumber == 'r':
+        print("you are going to the rooftop")
+    elif floornumber == '1':
+        print('you are going to the gym')
+    elif floornumber == '2':
+        print('you are going to the resturant')
+    elif floornumber == '3':
+        print('you are going to workspace ')
+    elif floornumber == '4':
+        print('you are going to living quarters')
+    else:
+        print('Error: sorry that floor dosesnt exist. Try again')
         
-ElevatorSystem()
-
-#def Elevator(floornumber):
- #   floornumber = int(input('what floor would you like to go to?'))
-  #  if floornumber('m'):
- #       print('lobby')
-   # elif floornumber('B'):
-   #     print('basement')
-  #  elif floornumber('R'):
-  #      print('rooftop')
-   # elif floornumber('1'):
-   #     print('gym')
-  #  elif floornumber ('2'):
-   #     print('restuarant')
-   # elif floornumber('3'):
-      #  print('workspace')
-  #  elif floornumber('4'):
-    #    print('living quarters')
-
-#Elevator()
+#ElevatorSystem()
 
 #___________________________________________________________
 
@@ -83,7 +72,16 @@ ElevatorSystem()
 # if the user enters information incorrectly, give them an error message
 # and tell them that they entered their information incorrectly. 
 
+def RollerCoaster(height, age):
+    if height >= 5.2 and age >= 14:
+        print('you may get on roller caoaster #1')
+    elif height < 5.2 and age >= 14:
+        print('you may get on roller coaster #2')
+    elif height < 5.2 and age < 14:
+        print('you may get on roller coaster #3')
+    else:
+        print('Error: you may have typed something incorrectly. Try again.')
 
-def  RollerCoaster():
-    Roller = input("what is your age?")
+RollerCoaster(5.1, 13)
+    
     
