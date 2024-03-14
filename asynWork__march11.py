@@ -16,7 +16,7 @@
 # in a complete sentence. 
 'the function you would use is int()'
 # 2. Create a list called numbCol that contains three (3 ) colors and three (3) numbers.
-
+numbCol=['red', 'blue', 'green', 1,2,3]
 # 3. You have been hired by a University to create
 # a scholarship function. The client would like to provide 
 # students a scholarship to their school based on the following
@@ -27,7 +27,10 @@
 # compare the condtions and return false. If the result is false, the client
 # would also like the program to print the message "congrats! you've gotten the scholarship."
 # the client has given you the choice on how to enter data for your function.
-# you may enter data using input or pass in data into your function as parameters. 
+# you may enter data using input or pass in data into your function as parameters
+def scholarship(userloan, beentocollage):
+    if not (userloan == 'True' and beentocollage == 'True'):
+        print('congrats! you gotten the scholarship.')
+    
 
-def scholarship():
     
