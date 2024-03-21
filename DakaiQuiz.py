@@ -61,3 +61,7 @@ highScore=2300
 
 # Bonus : What does the type() function do?
 "returns the object that you input"
+
+
+
+raised when the program attempts to access or use a variable that has not been defined or assigned a value.
