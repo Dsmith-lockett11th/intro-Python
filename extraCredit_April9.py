@@ -26,6 +26,48 @@ print('number of characters:',
 
 # if the user enters information incorrectly, give them an error message
 # and tell them that they entered their information incorrectly. 
+def roller_coaster_access(age, height):
+    if height >= 5.2:
+        if age >= 14:
+            print("You are eligible to ride Roller Coaster 1.")
+        else:
+            print("You are eligible to ride Roller Coaster 2.")
+    elif age >= 14:
+        print("You are eligible to ride Roller Coaster 2.")
+    else:
+        print("You are eligible to ride Roller Coaster 3.")
+
+def checkout_scanner():
+    cart = []
+    total_price = 0
+    
+    while True:
+        item_name = input("Enter the name of the item: ")
+        item_price_str = input("Enter the price of the item: ")
+        
+        try:
+            item_price = float(item_price_str)
+        except ValueError:
+            print("Error: Please enter a valid price.")
+            continue
+        
+        cart.append((item_name, item_price))
+        total_price += item_price
+        
+        choice = input("Would you like to continue shopping? (y/n): ")
+        if choice.lower() != 'y':
+            break
+    
+    print("\nYour cart:")
+    for item in cart:
+        print(f"{item[0]} - ${item[1]}")
+    print(f"Total price: ${total_price}")
+
+age = int(input("Enter your age: "))
+height = float(input("Enter your height (in feet): "))
+roller_coaster_access(age, height)
+
+checkout_scanner()
 
 # Prompt # 3.
 # You have been hired as an engineer to develop a checkout scanner system.
@@ -39,3 +81,31 @@ print('number of characters:',
 # create a discount system where, when the user enters 'y' for being done shopping,
 # ask the user if they have a discount code. Depending on the code they enter they will
 # recieve 10%, 25%, or 50% off of their total purchase.
+
+def checkout_scanner():
+    cart = []
+    total_price = 0
+    
+    while True:
+        item_name = input("Enter the name of the item: ")
+        item_price_str = input("Enter the price of the item: ")
+        
+        try:
+            item_price = float(item_price_str)
+        except ValueError:
+            print("Error: Please enter a valid price.")
+            continue
+        
+        cart.append((item_name, item_price))
+        total_price += item_price
+        
+        choice = input("Would you like to continue shopping? (y/n): ")
+        if choice.lower() != 'y':
+            break
+    
+    print("\nYour cart:")
+    for item in cart:
+        print(f"{item[0]} - ${item[1]}")
+    print(f"Total price: ${total_price}")
+
+checkout_scanner()
