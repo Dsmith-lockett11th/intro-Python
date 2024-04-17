@@ -1,21 +1,3 @@
-fruits = ["apple", "orange", "banana", "apple", "grape", "orange", "kiwi", "apple"]
-
-
-def sort_fruits(fruitlist):
-    apple_list = []
-    orange_list = []
-    unsortedfruits = []
-    for fruit in fruitlist:
-        if fruit == "apple":
-            applelist.append(fruit)
-        elif fruit == "orange":
-            orangelist.append(fruit)
-        else:
-            unsortedfruits.append(fruit)
-
-    return applelist, orangelist, unsortedfruits
-applelist, orangelist, unsortedfruits = sort_fruits(fruits)
-
-print("List of Apples:", applelist)
-print("List of Oranges:", orangelist)
-print("Unsorted Fruits:", unsortedfruits)
+numberlist = [1,2,3,4,5,6,7]
+for number in numberlist:
+    print(number *3)
