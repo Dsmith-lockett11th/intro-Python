@@ -21,8 +21,8 @@ fruits = ["apple", "orange", "banana", "apple", "grape", "orange", "kiwi", "appl
 
 
 def sort_fruits(fruitlist):
-    apple_list = []
-    orange_list = []
+    applelist = []
+    orangelist = []
     unsortedfruits = []
     for fruit in fruitlist:
         if fruit == "apple":
