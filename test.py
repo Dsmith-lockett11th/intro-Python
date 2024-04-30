@@ -1,3 +1,2 @@
-numberlist = [1,2,3,4,5,6,7]
-for number in numberlist:
-    print(number *3)
+def savingGoal():
+   print('what you are saving up for?'(input))raise
